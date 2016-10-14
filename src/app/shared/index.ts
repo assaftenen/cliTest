@@ -1,2 +1,2 @@
 export * from './hero'
-export * from './click-me/click-me.component'
+export * from './click-me'
