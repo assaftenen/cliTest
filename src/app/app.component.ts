@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {Hero} from './shared/hero'
 import { ClickMeComponent } from './shared/click-me/click-me.component';
+import {KeyupComponent} from './shared/keyup/keyup.component';
 
 
 @Component({

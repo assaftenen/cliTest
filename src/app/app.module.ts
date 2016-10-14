@@ -6,13 +6,15 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 
 import { AppComponent } from './app.component';
 import { ClickMeComponent } from './shared/click-me/click-me.component';
+import { KeyupComponent } from './shared/keyup/keyup.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    ClickMeComponent
+    ClickMeComponent,
+    KeyupComponent
 
   ],
   imports: [ 
