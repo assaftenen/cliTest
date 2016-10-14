@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {Hero} from './shared/hero'
+import { ClickMeComponent } from './shared/click-me/click-me.component';
+
 
 @Component({
   selector: 'app-root',

@@ -5,12 +5,14 @@ import { HttpModule } from '@angular/http';
 import {DashboardComponent} from './dashboard/dashboard.component';
 
 import { AppComponent } from './app.component';
+import { ClickMeComponent } from './shared/click-me/click-me.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    ClickMeComponent
 
   ],
   imports: [ 
