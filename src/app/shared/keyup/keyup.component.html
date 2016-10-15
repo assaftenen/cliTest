@@ -1,2 +1,3 @@
-<input #box (keyup.enter)="values=box.value">
+<input #box (blur)="values=box.value"
+(keyup.enter)="values=box.value">
     <p>{{values}}</p>
