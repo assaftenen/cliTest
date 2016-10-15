@@ -7,6 +7,7 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import { AppComponent } from './app.component';
 import { ClickMeComponent } from './shared/click-me/click-me.component';
 import { KeyupComponent } from './shared/keyup/keyup.component';
+import { LittleTourComponent } from './shared/little-tour/little-tour.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { KeyupComponent } from './shared/keyup/keyup.component';
     AppComponent,
     DashboardComponent,
     ClickMeComponent,
-    KeyupComponent
+    KeyupComponent,
+    LittleTourComponent
 
   ],
   imports: [ 
